@@ -130,7 +130,7 @@ public class WeatherActivity extends AppCompatActivity {
      * 根据天气id请求城市天气信息。
      */
     public void requestWeather(final String weatherId) {
-        Toast.makeText(WeatherActivity.this, "This is my fork edition222", Toast.LENGTH_SHORT).show();
+        Toast.makeText(WeatherActivity.this, "This is my fork edition333", Toast.LENGTH_SHORT).show();
         String weatherUrl = "http://guolin.tech/api/weather?cityid=" + weatherId + "&key=bc0418b57b2d4918819d3974ac1285d9";
         HttpUtil.sendOkHttpRequest(weatherUrl, new Callback() {
             @Override
